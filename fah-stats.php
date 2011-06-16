@@ -15,8 +15,8 @@ Copyright 2011  SloBros  (email : rjkoehl@gmail.com)
 add_action('wp_print_styles', 'add_fold_stylesheet');
 
     function add_fold_stylesheet() {
-        $myStyleUrl = WP_PLUGIN_URL . '/fah-stats/foldstyle.css';
-		$myStyleFile = WP_PLUGIN_DIR . '/fah-stats/foldstyle.css';
+        $myStyleUrl = WP_PLUGIN_URL . '/folding-at-home-stats/foldstyle.css';
+		$myStyleFile = WP_PLUGIN_DIR . '/folding-at-home-stats/foldstyle.css';
         if ( file_exists($myStyleFile) ) {
             wp_register_style('foldStyleSheets', $myStyleUrl);
             wp_enqueue_style( 'foldStyleSheets');
