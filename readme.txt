@@ -1,3 +1,6 @@
+#This is a fork of SloBros wordpress plugin
+https://wordpress.org/plugins/folding-at-home-stats/developers/
+
 === Folding at Home Stats ===
 Contributors: SloBros
 Donate link: http://slobros.com/2011/wp/plugins/folding-at-home-stats/
